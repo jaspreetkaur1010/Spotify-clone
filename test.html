@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+
+
+        <div class="sidebar">
+
+            <div class="sidebar-top">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-home" style="opacity:1;"></i>
+                        <a href="#" style="opacity:1;">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-search"></i>
+                        <a href="#">Search</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-bottom">
+                <div class="library">
+                    <img src="library_icon.png">
+                    <a href="#">Your Library</a>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="sidebar-bottom-btm">
+                    <div class="cr-playlist">
+                        <h4>Create your first playlist</h4>
+                        <p>It's easy, we'll help you</p>
+                        <button>Create Playlist</button>
+                    </div>
+                    <div class="cr-playlist" id="podcast-btn">
+                        <h4>Let's find some podcasts to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+
+
+            <div class="main-header">
+                <div class="main-header-left">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png">
+                </div>
+                <div class="main-header-right">
+                    <button id="premium">Explore premium</button>
+                    <button type="submit" class="install"><i class="fa-solid fa-circle-arrow-down" id="install"></i>
+                        Install App 
+                    </button>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+
+
+            <h2 class="rec-ply">Recently Played</h2>
+            <div id="recentlyplayed" class="cards">
+                <img src="card1img.jpeg">
+                <h4>Today's Top Hits</h4>
+                <p>Taylor Swift on top of the Hottest 50!</p>
+            </div>
+
+            <h2>Shows to try</h2>
+            <div class="showstotry">
+                <div class="cards">
+                    <img src="card2img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card3img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card6img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card4img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card5img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+            </div>
+            
+            <h2>Try something else</h2>
+            <div class="showstotry">
+                <div class="cards">
+                    <img src="card2img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card3img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card6img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card4img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card5img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+            </div>
+
+
+            <h2>Featured Charts</h2>
+            <div class="showstotry">
+                <div class="cards">
+                    <img src="card2img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card3img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card6img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card4img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card5img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+            </div>
+
+            <h2>Spotify original & exclusive podcasts</h2>
+            <div class="showstotry">
+                <div class="cards">
+                    <img src="card2img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card3img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card6img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card4img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+                <div class="cards">
+                    <img src="card5img.jpeg">
+                    <h4>Today's Top Hits</h4>
+                    <p>Taylor Swift on top of the Hottest 50!</p>
+                </div>
+            </div>
+
+            <div class="space"></div>
+
+
+        </div>
+
+
+        <div class="musicplayer">
+            <div class="musicleft">
+                <img src="card2img.jpeg">
+                <div>
+                    <h5>Mahiye Jinna Sohna</h5>
+                    <p>Darshan Raval</p>
+                </div>
+                <i class="fa-solid fa-heart"></i>
+            </div>        
+            <div class="musicmiddle">
+                <div class="middleup">
+                    <img src="player_icon1.png" alt="shuffle">
+                    <img src="player_icon2.png" alt="prev">
+                    <img class="play" src="player_icon3.png" alt="play">
+                    <img src="player_icon4.png" alt="next">
+                    <img src="player_icon5.png" alt="repeat">
+                </div>
+                <div class="middledown">
+                    <p>0:02</p>
+                    <input type="range" class="playline">
+                    <!-- <div></div> -->
+                    <p>2:38</p>
+                </div>
+            </div>  
+            <div class="musicright">
+                <i class="fa-solid fa-lines-leaning"></i>
+                <i class="fa-solid fa-volume-low"></i>
+                <div></div>
+                <i class="fa-solid fa-sliders"></i>
+                <i class="fa-solid fa-link"></i>
+
+            </div>      
+        </div>
+    </div>
+</body>
+</html>
